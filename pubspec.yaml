@@ -1,0 +1,31 @@
+name: viral_shorts_ai
+description: On-device AI Video Editing System for YouTube Shorts.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # UI & Animasyon
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  flutter_spinkit: ^5.2.0
+  # Video İşleme Motoru (FFmpeg)
+  ffmpeg_kit_flutter_full_gpl: ^6.0.3-LTS
+  # Video İndirme ve Stream
+  youtube_explode_dart: ^2.2.2
+  # Depolama & Galeri
+  path_provider: ^2.1.2
+  gallery_saver: ^2.3.2
+  # AI Analizi (Klip seçimi için hafif API çağrısı)
+  google_generative_ai: ^0.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
